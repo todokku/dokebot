@@ -13,15 +13,4 @@ client.on('guildMemberAdd', member => {
 <:poritos:475692349645783041> <a:azzz:475694148658266112> Leia as <#466060461335379968> e seja 2000% framily cremely <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
-  client.on("message", async message => {
-
-  if(message.author.bot) return;
-  
-  if(message.content.indexOf(process.env.PREFIX) !== 0) return;
-
-  const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
-  const command = args.shift().toLowerCase();
-
-});
-
 client.login(process.env.TOKEN);
