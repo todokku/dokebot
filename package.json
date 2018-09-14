@@ -2,10 +2,10 @@
     "name": "dokebot",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "doke.js",
     "scripts": {
-        "start": "node index.js",
-        "test": ".listen(process.env.PORT || 5000)"
+        "start": "node doke.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
     },
     "keywords": [],
     "author": "",
