@@ -1,6 +1,6 @@
 {
     "name": "dokebot",
-    "description": "Dokebu Bot",
+    "description": "DokebuBot",
     "version": "1.0.0",
     "main": "doke.js",
     "scripts": {
