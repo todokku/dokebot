@@ -1,1 +1,2 @@
-worker: npm start
+Worker: npm start
+urgentworker: node doke.js
