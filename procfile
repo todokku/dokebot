@@ -1,1 +1,1 @@
-web: npm doke.js
+worker: npm start
