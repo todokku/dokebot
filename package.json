@@ -1,11 +1,15 @@
 {
     "name": "dokebot",
-    "description": "DokebuBot",
     "version": "1.0.0",
+    "description": "",
     "main": "doke.js",
     "scripts": {
         "start": "node doke.js",
+        "test": ".listen(process.env.PORT || 5000)"
     },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "dependencies": {
         "discord.js": "^11.4.2"
     }
