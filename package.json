@@ -4,7 +4,7 @@
     "version": "0.0.0",
     "main": "doke.js",
     "scripts": {
-        "start": "node doke.js",
+        "start": "node doke.js"
     },
     "dependencies": {
         "discord.js": "^11.4.2"
