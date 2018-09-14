@@ -1,16 +1,28 @@
 {
-    "name": "dokebot",
-    "version": "1.0.0",
-    "description": "",
-    "main": "doke.js",
-    "scripts": {
-        "start": "node doke.js",
-        "test": ".listen(process.env.PORT || 5000)"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "discord.js": "^11.4.2"
-    }
+  "name": "discord.js-heroku",
+  "version": "1.0.0",
+  "description": "An in-depth guide on deploying your Discord.js bot on Heroku",
+  "main": "index.js",
+  "engines": {
+      "node": "8.x",
+      "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyanMarcos/dokebot"
+  },
+  "keywords": [
+    "heroku",
+    "discord.js"
+  ],
+  "author": "KyanMarcos",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
 }
