@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./config.json");
 
 client.on("ready", () => {
   console.log(`Tenho ${client.users.size} Usuarios.`); 
@@ -25,4 +24,4 @@ client.on('guildMemberAdd', member => {
 
 });
 
-client.login(config.token);
+client.login(process.env.BOT_TOKEN);
