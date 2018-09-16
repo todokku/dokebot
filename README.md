@@ -1,2 +1,4 @@
-# dokebot
-Dokebot Using Heroku 24/7
+# Dokebu se você estiver lendo isso...
+Cadê
+o
+partner?
