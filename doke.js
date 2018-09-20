@@ -13,6 +13,10 @@ client.on('guildMemberAdd', member => {
 <:poritos:475692349645783041> <a:azzz:475694148658266112> Leia as <#466060461335379968> e seja 2000% framily cremely <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
-
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.channel.send('https://cdn.discordapp.com/attachments/338007115685822466/491807608559108106/aaaa.jpg');
+  }
+});
 
 client.login(process.env.BOT_TOKEN);
