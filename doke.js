@@ -14,7 +14,7 @@ client.on('guildMemberAdd', member => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
+  if (msg.content === '!partner') {
     msg.channel.send('https://cdn.discordapp.com/attachments/338007115685822466/491807608559108106/aaaa.jpg');
   }
 });
