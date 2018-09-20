@@ -15,7 +15,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', msg => {
 if (msg.content === 'klb kyan') {
-    msg.reply('?kick @Kyan Marcos#7872 duvidou de meu poder? se fufu.');
+    msg.channel.send('?kick @Kyan Marcos#7872 duvidou de meu poder? se fufu.');
   }
 });
 
