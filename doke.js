@@ -3,20 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(`Tenho ${client.users.size} Usuarios.`); 
-  bot.user.setActivity("test", {type: "WATCHING"});
-
-  let activNum = 0;
-
-  setInterval(function() {
-      if (activNum === 0) {
-          bot.user.setActivity("dokeburro só faz burrada, dokeburro demais.");
-          activNum = 1;
-      } else if (activNum === 1) {
-          bot.user.setActivity("*gay noises*");
-          activNum = 0;
-      }
-    }, 10 * 1000);
-});
+  bot.user.setActivity("*gay noises*", {type: "WATCHING"});
 
 client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.name === '🍆jeral');
