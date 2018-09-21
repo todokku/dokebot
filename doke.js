@@ -4,6 +4,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log(`Tenho ${client.users.size} Usuarios.`); 
   bot.user.setActivity("*gay noises*", {type: "WATCHING"});
+});
 
 client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.name === '🍆jeral');
