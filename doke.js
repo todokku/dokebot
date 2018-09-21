@@ -3,7 +3,19 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(`Tenho ${client.users.size} Usuarios.`); 
-  client.user.setPresence({ game: { name: 'as boas velhas do sevre.', type: 2, url: 'https://www.youtube.com/user/DokebuGamer'} });
+  bot.user.setActivity("test", {type: "WATCHING"});
+
+  let activNum = 0;
+
+  setInterval(function() {
+      if (activNum === 0) {
+          bot.user.setActivity("dokeburro só faz burrada, dokeburro demais.");
+          activNum = 1;
+      } else if (activNum === 1) {
+          bot.user.setActivity("*gay noises*");
+          activNum = 0;
+      }
+    }, 10 * 1000);
 });
 
 client.on('guildMemberAdd', member => {
