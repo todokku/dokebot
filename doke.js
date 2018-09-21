@@ -4,7 +4,6 @@ const client = new Discord.Client();
 client.on("ready", () => {
   console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
   client.user.setPresence({ game: { name: '*gay noises*', type: 2, url: 'link ~~e zelda~~'} });
-});
 
 client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.name === '🍆jeral');
