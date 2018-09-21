@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
-  console.log(`Tenho ${client.users.size} Usuarios.`); 
+  console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
 });
 
 client.on('guildMemberAdd', member => {
