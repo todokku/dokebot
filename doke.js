@@ -13,11 +13,12 @@ client.on('guildMemberAdd', member => {
 <:poritos:475692349645783041> <a:azzz:475694148658266112> Leia as <#466060461335379968> e seja 2000% framily cremely <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
+const prefix = "<@489480158248435742> ";
 client.on('message', msg => {
-  if (msg.content === '<@489480158248435742> bongo cat') {
+  if (msg.content === prefix + 'bongo cat') {
     msg.channel.send('<a:zbongocat2:471461208394956810>');
   }
-  if (msg.content === '<@489480158248435742> rinku é gay?') {
+  if (msg.content === prefix + 'rinku é gay?') {
     msg.channel.send('claro po');
 });
 
