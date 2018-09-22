@@ -15,7 +15,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', msg => {
   if (msg.content === '<@489480158248435742> bongo cat') {
-    msg.channel.send('<a:zbongocat2:471461208394956810>');
+    msg.react('<a:zbongocat2:471461208394956810>');
   }
 });
 
