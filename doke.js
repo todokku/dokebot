@@ -17,6 +17,8 @@ client.on('message', msg => {
   if (msg.content === '<@489480158248435742> bongo cat') {
     msg.channel.send('<a:zbongocat2:471461208394956810>');
   }
+  if (msg.content === '<@489480158248435742> rinku é gay?') {
+    msg.channel.send('claro po');
 });
 
 client.login(process.env.BOT_TOKEN);
