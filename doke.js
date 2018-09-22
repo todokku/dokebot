@@ -18,8 +18,8 @@ client.on('message', msg => {
   if (msg.content === prefix + 'bongo cat') {
     msg.channel.send('<a:zbongocat2:471461208394956810>');
   }
-  if (msg.content === prefix + 'rinku é gay?') {
-    msg.channel.send('claro po');
+  if (msg.content === prefix + 'dokeburro') {
+    msg.channel.send('dokeburro só fas burrada, dokeburro demais.');
   }
 });
 
