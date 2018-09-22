@@ -13,4 +13,10 @@ client.on('guildMemberAdd', member => {
 <:poritos:475692349645783041> <a:azzz:475694148658266112> Leia as <#466060461335379968> e seja 2000% framily cremely <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
+client.on('message', msg => {
+  if (msg.content === '@Doke#7591 bongo cat') {
+    msg.channel.send('<a:zbongocat2:471461208394956810>');
+  }
+});
+
 client.login(process.env.BOT_TOKEN);
