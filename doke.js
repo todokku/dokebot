@@ -13,14 +13,4 @@ client.on('guildMemberAdd', member => {
 <:poritos:475692349645783041> <a:azzz:475694148658266112> Leia as <#466060461335379968> e seja 2000% framily cremely <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
-const prefix = "<@489480158248435742> ";
-client.on("message", (message) => {
-  if (!message.content.startsWith(prefix)) return;
-
-  if (message.content.startsWith(prefix + "kyan é um hascker?")) {
-    message.channel.send("n <:porocoolguy:497444402722111488>");
-  }
-});
-
 client.login(process.env.BOT_TOKEN);
-
