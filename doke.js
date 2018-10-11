@@ -7,8 +7,8 @@ client.on("ready", () => {
 });
 
 client.on('guildMemberAdd', member => {
-    const channel = member.guild.channels.find(ch => ch.name === '🍆jeral');
-    if (!channel) return;
+    const channel = member.guild.channels.find(ch => ch.name === '☕vem-bindo');
+    if (!channel) return
     channel.send(`
 <a:ztemMuns:461656598197305347>👉 ${member} bem vindo ao servre
 <a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e clique no link para ser verificado e usar os chats <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
