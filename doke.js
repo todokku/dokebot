@@ -7,7 +7,7 @@ client.on("ready", () => {
 });
 
 client.on('guildMemberAdd', member => {
-    const channel = member.guild.channels.find(ch => ch.name === '☕vem-bindo');
+    const channel = member.guild.channels.find(ch => ch.name === '🍵vem-bindo');
     if (!channel) return
     channel.send(`
 <a:ztemMuns:461656598197305347>👉 ${member} bem vindo ao servre
