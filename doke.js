@@ -14,11 +14,11 @@ client.on('guildMemberAdd', member => {
 <a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzao <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
-//client.on('message', async message => {
-//    if (message.content === '!join') {
-//        client.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
-//    }
-//});
+client.on('message', async message => {
+    if (message.content === '!join') {
+        client.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
+   }
+});
 //Comando de Bem Vindo.
 
 client.login(process.env.BOT_TOKEN);
