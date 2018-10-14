@@ -15,8 +15,8 @@ client.on('guildMemberAdd', member => {
 });
 
 client.on('message', async message => {
-    if (message.content === 'tipo o bot aparece do nada assim saca ai todo mundo wtf') {
-       message.channel.send("vsf, parem de falar de mim");
+    if (message.content === 'vsf bot') {
+       message.channel.send("n");
     }
 });
 
