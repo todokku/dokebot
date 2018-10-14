@@ -20,6 +20,8 @@ client.on('message', async message => {
        message.channel.send("n");
       if (message.content === prefix + 'tnc') {
        message.channel.send("opora parem de me pingar");
+        if (message.content === prefix + 'filha da puta') {
+       message.channel.send("ata blz");
     }
 });
 
