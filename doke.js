@@ -15,15 +15,15 @@ client.on('guildMemberAdd', member => {
 });
 
 let prefix = "<@489480158248435742> ";
-client.on('message', async message => {
-    if (message.content === prefix + 'vsf') {
-       message.channel.send("n");
-      if (message.content === prefix + 'tnc') {
-       message.channel.send("opora parem de me pingar");
-        if (message.content === prefix + 'filha da puta') {
-       message.channel.send("ata blz");
-          if (message.content === prefix + 'play despacito') {
-       message.channel.send("no 😎");
+client.on('msg', async msg => {
+    if (msg.content === prefix + 'vsf') {
+       msg.channel.send("n");
+      if (msg.content === prefix + 'tnc') {
+       msg.channel.send("opora parem de me pingar");
+        if (msg.content === prefix + 'filha da puta') {
+       msg.channel.send("ata blz");
+          if (msg.content === prefix + 'play despacito') {
+       msg.channel.send("no 😎");
     }
 });
 
