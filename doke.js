@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
-  console.log(`6tou!!!11 ${client.guild.users.size} Usuarios.`); 
+  console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
   client.user.setPresence({ game: { name: 'October Poop 💩', type: 2, url: 'https://www.youtube.com/channel/UCJMy6zh6BUEK4hydRlbuQeg'} });
 });
 
