@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 client.on("ready", () => {
-  console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
+  console.log(`6tou!!!11 ${client.guild.size} Usuarios.`); 
   client.user.setPresence({ game: { name: 'October Poop 💩', type: 2, url: 'https://www.youtube.com/channel/UCJMy6zh6BUEK4hydRlbuQeg'} });
 });
 
@@ -12,22 +12,6 @@ client.on('guildMemberAdd', member => {
     channel.send(`
 <a:ztemMuns:461656598197305347>👉 Olá ${member}, seja vem bindo ao servre! <:porocoolguy:497444402722111488>
 <a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzão <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
-});
-
-let prefix = "<@489480158248435742> ";
-client.on('msg', async msg => {
-    if (msg.content === prefix + 'vsf') {
-       msg.channel.send("n");
-      if (msg.content === prefix + 'tnc') {
-         msg.channel.send("opora parem de me pingar");
-        if (msg.content === prefix + 'filha da puta') {
-           msg.channel.send("ata blz");
-          if (msg.content === prefix + 'play despacito') {
-             msg.channel.send("no 😎");
-            }
-         }
-      }
-    }
 });
 
 //client.on('message', async message => {
