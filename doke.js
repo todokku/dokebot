@@ -14,7 +14,13 @@ client.on('guildMemberAdd', member => {
 <a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzão <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
-//client.on('message', async message => {
+client.on('message', async message => {
+    if (message.content === 'tipo o bot aparece do nada assim saca ai todo mundo wtf') {
+       message.channel.send("vsf, parem de falar de mim");
+    }
+});
+
+  //client.on('message', async message => {
 //    if (message.content === '!join') {
 //        client.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
 //   }
