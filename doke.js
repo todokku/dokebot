@@ -24,7 +24,9 @@ client.on('msg', async msg => {
        msg.channel.send("ata blz");
           if (msg.content === prefix + 'play despacito') {
        msg.channel.send("no 😎");
-    }
+       }
+     }
+   }
 });
 
 //client.on('message', async message => {
