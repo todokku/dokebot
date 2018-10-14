@@ -16,12 +16,12 @@ client.on('guildMemberAdd', member => {
 
 let prefix = "<@489480158248435742> "
 client.on('message', async message => {
-    if (message.content === 'diga') {
+    if (message.content === prefix + 'diga') {
     const sayMessage = args.join(" ");
     message.delete().catch(O_o=>{}); 
     message.channel.send(sayMessage);
   }
-
+});
 //client.on('message', async message => {
 //    if (message.content === '!join') {
 //        client.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
