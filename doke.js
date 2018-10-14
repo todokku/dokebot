@@ -14,7 +14,7 @@ client.on('guildMemberAdd', member => {
 <a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzão <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
 });
 
-let prefix = "<@489480158248435742> "
+const prefix = "<@489480158248435742> "
 client.on('message', async message => {
     if (message.content === prefix + 'vsf') {
        message.channel.send("n");
