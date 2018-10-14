@@ -19,14 +19,15 @@ client.on('msg', async msg => {
     if (msg.content === prefix + 'vsf') {
        msg.channel.send("n");
       if (msg.content === prefix + 'tnc') {
-       msg.channel.send("opora parem de me pingar");
+         msg.channel.send("opora parem de me pingar");
         if (msg.content === prefix + 'filha da puta') {
-       msg.channel.send("ata blz");
+           msg.channel.send("ata blz");
           if (msg.content === prefix + 'play despacito') {
-       msg.channel.send("no 😎");
-       }
-     }
-   }
+             msg.channel.send("no 😎");
+            }
+         }
+      }
+    }
 });
 
 //client.on('message', async message => {
