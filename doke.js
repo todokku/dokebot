@@ -22,6 +22,8 @@ client.on('message', async message => {
        message.channel.send("opora parem de me pingar");
         if (message.content === prefix + 'filha da puta') {
        message.channel.send("ata blz");
+          if (message.content === prefix + 'play despacito') {
+       message.channel.send("no 😎");
     }
 });
 
