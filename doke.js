@@ -16,7 +16,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', msg => {
   if (msg.content === '!xuxu') {
-    msg.author.reply('Oi xuxuzinho, você pode entrar nesse servidor pra mamãe? Obrigado e te amo :heart: https://discord.gg/TzvXu2A');
+    msg.author.send('Oi xuxuzinho, você pode entrar nesse servidor pra mamãe? Obrigado e te amo :heart: https://discord.gg/TzvXu2A');
   }
 });
 //client.on('message', async message => {
