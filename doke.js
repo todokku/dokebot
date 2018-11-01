@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
-  client.user.setPresence({ game: { name: 'É natal é natal pega no meu...', type: 2, url: 'https://www.youtube.com/channel/UCJMy6zh6BUEK4hydRlbuQeg'} });
+  bot.user.setActivity("é natal é natal, pega no meu...", {type: "WATCHING"});
 });
 
 client.on('guildMemberAdd', member => {
