@@ -27,7 +27,7 @@ client.on('message', async message => {
         message.channel.send(bobo[Math.floor(Math.random() * bobo.length)]);
    } else
      if (message.content === '<@489480158248435742> jojo') {
-        message.channel.send("1 like = kill 10000000 jojofags");
+        message.channel.send("1 like = 1 dead jojofags");
    }
 });
 
