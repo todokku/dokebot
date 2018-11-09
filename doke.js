@@ -21,9 +21,10 @@ client.on('guildMemberAdd', member => {
 //});
 //Comando de Bem Vindo.
 
+const bobo = ['marco o doke errado, bobão 👍', '👍', '@dokebo 😠😠😠'];
 client.on('message', async message => {
     if (message.content === '<@489480158248435742>') {
-        message.channel.send("marco o doke errado, bobão 👍");
+        message.channel.send([Math.floor(Math.random() * rando_imgs.length)]);
    }
 });
 
