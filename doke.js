@@ -23,7 +23,7 @@ client.on('guildMemberAdd', member => {
 
 client.on('message', async message => {
     if (message.content === '<@489480158248435742>') {
-        message.channel.send("marco o doke errado bobão.");
+        message.channel.send("marco o doke errado, bobão 👍");
    }
 });
 
