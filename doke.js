@@ -25,7 +25,7 @@ const bobo = ['marco o doke errado, bobão 👍', '👍', '@dokebo 😠😠😠'
 client.on('message', async message => {
     if (message.content === '<@489480158248435742>') {
         message.channel.send(bobo[Math.floor(Math.random() * bobo.length)]);
-   } else
+   }
      if (message.content === '<@489480158248435742> jojo') {
         message.channel.send("1 like = 1 dead jojofag");
    }
