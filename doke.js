@@ -29,9 +29,7 @@ client.on('message', async message => {
      if (message.content === '<@489480158248435742> jojo') {
         message.channel.send("1 like = 1 jojofag dead");
    }
-  if (message.content === 'ta') {
-        message.channel.send("ta");
-   }
+
 });
 
 client.login(process.env.BOT_TOKEN);
