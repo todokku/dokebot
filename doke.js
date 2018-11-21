@@ -21,11 +21,4 @@ client.on('guildMemberAdd', member => {
 //});
 //Comando de Bem Vindo.
 
-
-client.on('message', async message => {
-    if (message.content === '<@489480158248435742>') {
-        message.channel.send("👍");
-   }
-});
-
 client.login(process.env.BOT_TOKEN);
