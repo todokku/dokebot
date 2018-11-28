@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
-  client.user.setActivity("gostar de trap é gay?", {type: "WATCHING"});
+  client.user.setActivity("é natal é natal, pega no meu...", {type: "WATCHING"});
 });
 
 client.on('guildMemberAdd', member => {
