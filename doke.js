@@ -11,7 +11,7 @@ client.on('guildMemberAdd', member => {
     if (!channel) return
     channel.send(`
 <a:ztemMuns:461656598197305347>👉 Olá ${member}, seja vem bindo ao servre! <:porocoolguy:497444402722111488>
-<a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzão <:monetizado:399274284880494602><:dokefingerguns:445312340682866708>`);
+<a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzão <:monetizado:3<:dokefingerguns:445312340682866708>`);
 });
 
 //client.on('message', async message => {
