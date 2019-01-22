@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
   console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
-  client.user.setActivity("2018 part 2", {type: "WATCHING"});
+  client.user.setActivity("Calda de café da manhã 🐲", {type: "WATCHING"});
 });
 
 client.on('guildMemberAdd', member => {
