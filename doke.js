@@ -9,9 +9,9 @@ client.on("ready", () => {
 client.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.name === '🍆jeral');
     if (!channel) return
-    channel.send(`
-<a:ztemMuns:461656598197305347>👉 Olá ${member}, seja vem bindo ao servre! <:porocoolguy:497444402722111488>
-<a:azzz:475694148658266112> <:poritos:475692349645783041> Leia as <#466060461335379968> e não seja cuzão <:dokefingerguns:445312340682866708>`);
+    channel.send(`👉 Olá ${member} , seja bem-vindo ao server!
+<a:asleepkirby:532963176883421186> Leia as <#466060461335379968> e não seja um cuzão.
+`);
 });
 
 //client.on('message', async message => {
