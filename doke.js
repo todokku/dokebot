@@ -7,7 +7,7 @@ client.on("ready", () => {
 });
 
 client.on('guildMemberAdd', member => {
-    const channel = member.guild.channels.find(ch => ch.name === '🍆jeral');
+    const channel = member.guild.channels.find(ch => ch.name === '💕boas-vinda');
     if (!channel) return
     channel.send(`👉 Olá ${member} , seja bem-vindo ao server!
 <a:asleepkirby:532963176883421186> Leia as <#466060461335379968> e não seja um cuzão.
