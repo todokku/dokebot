@@ -19,6 +19,7 @@ bot.on('guildMemberAdd', member => {
 //Unico comando do bot que só funciona pra mim
 bot.on('message', async message => {
 
+const donoID = '299654473054158859';
 const prefix = 'maid!';
 
 if(message.author.bot) return;  
@@ -27,7 +28,7 @@ if(message.author.bot) return;
   const command = args.shift().toLowerCase();
 
     if (command === 'entra') {
-     if(!message.member.roles.some(id=>["299654473054158859"].includes(m.id)) )
+     if(!message.member === donoID)
       return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
