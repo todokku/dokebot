@@ -16,10 +16,9 @@ bot.on('guildMemberAdd', member => {
     channel.send(`👉 Olá ${member} , seja bem-vindo ao server!\n <a:asleepkirby:532963176883421186> Leia as <#466060461335379968> e não seja um bananão 🍌`);
 });
 
-//Unico comando do bot que só funciona pra mim
+//Unico comando do bot que só funciona pra mim (criador do bot)
 bot.on('message', async message => {
 
-const donoID = '299654473054158859';
 const prefix = 'maid!';
 
 if(message.author.bot) return;  
@@ -28,8 +27,8 @@ if(message.author.bot) return;
   const command = args.shift().toLowerCase();
 
     if (command === 'entra') {
-
-     if(!message.member === donoID)
+    const donoID = member.guild.find(o => o.id === '299654473054158859');
+     if(!member.find === donoID)
       return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
