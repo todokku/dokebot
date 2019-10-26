@@ -17,7 +17,7 @@ bot.on('guildMemberAdd', member => {
 });
 
 //Unico comando do bot que só funciona pra mim
-client.on('message', async message => {
+bot.on('message', async message => {
 
 const prefix = 'maid!';
 
