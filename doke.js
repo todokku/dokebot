@@ -27,7 +27,7 @@ if(message.author.bot) return;
   const command = args.shift().toLowerCase();
 
     if (command === 'entra') {
-     if(!message.member.id.some(id=>["299654473054158859"].includes(m.id)) )
+     if(!message.member.roles.some(id=>["299654473054158859"].includes(m.id)) )
       return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
