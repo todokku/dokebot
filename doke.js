@@ -27,7 +27,7 @@ if(message.author.bot) return;
   const command = args.shift().toLowerCase();
 
     if (command === 'entra') {
-     if(!message.member.find.id(mb => mb.id === '299654473054158859');
+     if(!message.member.id(mb => mb.id === '299654473054158859');
       return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
