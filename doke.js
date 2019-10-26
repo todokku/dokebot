@@ -17,6 +17,8 @@ bot.on('guildMemberAdd', member => {
 });
 
 //Unico comando do bot que só funciona pra mim (criador do bot)
+
+/*/
 bot.on('message', async message => {
 
 const prefix = 'maid!';
@@ -30,6 +32,7 @@ if(message.author.bot) return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
 });
+/*/
 
 //Iniciar
 bot.login(process.env.BOT_TOKEN);
