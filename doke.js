@@ -1,24 +1,37 @@
+//Dokebot 2.0 :)
+//Inicio da programação
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const bot = new Discord.Client();
 
-client.on("ready", () => {
+//Seção para mostra que o bot está vivo
+bot.on("ready", () => {
   console.log(`6tou!!!11 ${client.users.size} Usuarios.`); 
-  client.user.setActivity("Calda de café da manhã 🐲", {type: "WATCHING"});
+  bot.user.setActivity("Calda de café da manhã 🐲", {type: "WATCHING"});
 });
 
-client.on('guildMemberAdd', member => {
+//Mensagem de bem vindo para o canal do Server
+bot.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.id === '546906263494066176');
     if (!channel) return
-    channel.send(`👉 Olá ${member} , seja bem-vindo ao server!
-<a:asleepkirby:532963176883421186> Leia as <#466060461335379968> e não seja um <@&475081215683067904>
-`);
+    channel.send(`👉 Olá ${member} , seja bem-vindo ao server!\n <a:asleepkirby:532963176883421186> Leia as <#466060461335379968> e não seja um bananão 🍌`);
 });
 
-//client.on('message', async message => {
-//    if (message.content === '!join') {
-//        client.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
-//   }
-//});
-//Comando de Bem Vindo.
+//Unico comando do bot que só funciona pra mim
+client.on('message', async message => {
 
-client.login(process.env.BOT_TOKEN);
+const prefix = 'maid!';
+
+if(message.author.bot) return;  
+  if(message.content.indexOf(prefix) !== 0) return;
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
+
+    if (command === 'entra') {
+     if(!message.member.find.id(mb => mb.id === '299654473054158859');
+      return;
+        bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
+   }
+});
+
+//Iniciar
+bot.login(process.env.BOT_TOKEN);
