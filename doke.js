@@ -27,9 +27,6 @@ if(message.author.bot) return;
   const command = args.shift().toLowerCase();
 
     if (command === 'entra') {
-    const disney = member.guild.roles.find(r => r.id === '299654473054158859');
-     if(!disney)
-      return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
 });
