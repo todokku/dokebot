@@ -28,7 +28,7 @@ if(message.author.bot) return;
 
     if (command === 'entra') {
     const disney = member.guild.roles.find(r => r.id === '299654473054158859');
-     if(!member.find === donoID)
+     if(!disney)
       return;
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
