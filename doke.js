@@ -16,8 +16,8 @@ bot.on('guildMemberAdd', member => {
     channel.send(`👉 Olá ${member} , seja bem-vindo ao server!\n <a:kirbysleep:648225659507703845> Leia as <#466060461335379968> e não seja um bananão 🍌`);
 });
 
-//Unico comando do bot que só funciona pra mim (criador do bot)
-
+//Unico comando do bot (que não funciona)
+/*/
 bot.on('message', async message => {
 
 const prefix = 'maid!';
@@ -30,7 +30,7 @@ if(message.author.bot) return;
     if (command === 'entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
-
+/*/
 });
 
 //Iniciar
