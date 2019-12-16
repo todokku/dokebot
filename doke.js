@@ -13,7 +13,7 @@ bot.on("ready", () => {
 bot.on('guildMemberAdd', member => {
     const channel = member.guild.channels.find(ch => ch.id === '546906263494066176');
     if (!channel) return
-    channel.send(`👉 Olá ${member} , seja bem-vindo ao server!\n <a:asleepkirby:532963176883421186> Leia as <#466060461335379968> e não seja um bananão 🍌`);
+    channel.send(`👉 Olá ${member} , seja bem-vindo ao server!\n <a:kirbysleep:648225659507703845> Leia as <#466060461335379968> e não seja um bananão 🍌`);
 });
 
 //Unico comando do bot que só funciona pra mim (criador do bot)
