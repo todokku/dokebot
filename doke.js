@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 //Seção para mostra que o bot está vivo
 bot.on("ready", () => {
   console.log(`Olá | ${bot.users.size} Usuarios.`); 
-  bot.user.setActivity("🎃 spooky", {type: "WATCHING"});
+  bot.user.setActivity("Cadê os meus presentes? 🎁", {type: "LISTENING"});
 });
 
 //Mensagem de bem vindo para o canal do Server
