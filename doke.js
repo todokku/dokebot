@@ -30,8 +30,8 @@ if(message.author.bot) return;
     if (command === 'entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
-/*/
 });
+/*/
 
 //Iniciar
 bot.login(process.env.BOT_TOKEN);
