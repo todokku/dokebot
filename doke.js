@@ -19,7 +19,6 @@ bot.on('guildMemberAdd', member => {
 //Unico comando do bot (que não funciona)
 bot.on('message', async message => {
 if(message.author.bot) return;
-  const command = args.shift().toLowerCase();
 
     if (command === '<@489480158248435742>') {
         message.channel.send('👍');
