@@ -18,7 +18,7 @@ bot.on('guildMemberAdd', member => {
 
 //Unico comando do bot (que não funciona)
 
-const prefix = '';
+const prefix = '<@489480158248435742>';
 bot.on('message', async message => {
 if(message.author.bot) return;
 
@@ -27,7 +27,7 @@ if(message.author.bot) return;
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-    if (command === '<@489480158248435742>') {
+    if (command === ' ') {
         message.channel.send('👍');
 /*/
     if (command === 'maid!entra') {
