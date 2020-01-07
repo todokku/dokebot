@@ -22,8 +22,7 @@ const prefix = '<@489480158248435742>';
 bot.on('message', async message => {
 if(message.author.bot) return;
 
- if(message.content.indexOf(prefix) !== 0) {
-message.channel.send('👍');
+ if(message.content.indexOf(prefix) !== 0);
 };
 
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
