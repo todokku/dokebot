@@ -23,7 +23,7 @@ if(message.author.bot) return;
   const args = message.content.slice(length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-    if (message.content === '<@489480158248435742>') {
+    if (command === '<@489480158248435742>') {
         message.channel.send('👍');
 /*/
     if (command === 'maid!entra') {
