@@ -32,8 +32,8 @@ message.channel.send('👍');
 /*/
     if (command === 'maid!entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
-/*/
    }
+/*/
 });
 
 //Iniciar
