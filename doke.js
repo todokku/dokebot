@@ -27,7 +27,7 @@ if(message.author.bot) return;
   const command = args.shift().toLowerCase();
 
     if (command === '<@489480158248435742>') {
-        message.channel.send('\👍'));
+        message.channel.send('\👍');
 /*/
     if (command === 'entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
