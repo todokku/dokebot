@@ -22,7 +22,7 @@ const prefix = '<@489480158248435742>';
 bot.on('message', async message => {
 if(message.author.bot) return;
 
- if(message.content.indexOf(prefix) !== 0);
+ if(message.content.indexOf(prefix) !== 0) return;
 };
 
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
