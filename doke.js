@@ -17,19 +17,16 @@ bot.on('guildMemberAdd', member => {
 });
 
 //Unico comando do bot (que não funciona)
-
+/*/
 const prefix = '<@489480158248435742>';
 bot.on('message', async message => {
 if(message.author.bot) return;
 
  if(message.content.indexOf(prefix) !== 0) return;
-};
-
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-/*/
-    if (command === 'maid!entra') {
+    if (command === 'entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
    }
 /*/
