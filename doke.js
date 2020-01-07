@@ -17,10 +17,14 @@ bot.on('guildMemberAdd', member => {
 });
 
 //Unico comando do bot (que não funciona)
+
+const prefix = '';
 bot.on('message', async message => {
 if(message.author.bot) return;
 
-  const args = message.content.slice(length).trim().split(/ +/g);
+ if(message.content.indexOf(prefix) !== 0) return;
+
+  const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
     if (command === '<@489480158248435742>') {
