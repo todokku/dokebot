@@ -6,7 +6,7 @@ const bot = new Discord.Client();
 //Seção para mostra que o bot está vivo
 bot.on("ready", () => {
   console.log(`Olá | ${bot.users.size} Usuarios.`); 
-  bot.user.setActivity("Cadê os meus presentes? 🎁", {type: "LISTENING"});
+  bot.user.setActivity("Membros novos pedindo uma xicara de chá!", {type: "WATCHING"});
 });
 
 //Mensagem de bem vindo para o canal do Server
@@ -26,7 +26,7 @@ if(message.author.bot) return;
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-    if (message.content === '<@489480158248435742>') {
+    if (message.content = '<@489480158248435742>') {
         message.channel.send('\👍');
 /*/
     if (command === 'entra') {
