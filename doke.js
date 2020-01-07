@@ -20,7 +20,7 @@ bot.on('guildMemberAdd', member => {
 bot.on('message', async message => {
 if(message.author.bot) return;
 
-    if (command === '<@489480158248435742>') {
+    if (message.content === '<@489480158248435742>') {
         message.channel.send('👍');
 /*/
     if (command === 'maid!entra') {
