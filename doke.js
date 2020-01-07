@@ -17,7 +17,6 @@ bot.on('guildMemberAdd', member => {
 });
 
 //Unico comando do bot (que não funciona)
-/*/
 bot.on('message', async message => {
 
 const prefix = 'maid!';
@@ -27,11 +26,14 @@ if(message.author.bot) return;
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
+    if (command === '<@489480158248435742>') {
+message.channel.send('\👍')
+/*/
     if (command === 'entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
+/*/
    }
 });
-/*/
 
 //Iniciar
 bot.login(process.env.BOT_TOKEN);
