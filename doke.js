@@ -29,8 +29,6 @@ message.channel.send('👍');
   const args = message.content.slice(prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
 
-    if(message.content === prefix) {
-        message.channel.send('👍');
 /*/
     if (command === 'maid!entra') {
         bot.emit('guildMemberAdd', message.member || await message.guild.fetchMember(message.author));
